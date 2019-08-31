@@ -1,0 +1,23 @@
+testing: false
+
+# Site settings
+title: "Abstract Algebra I (Rutgers 16:640:551,
+Fall 2019)"
+page_title: "Graduate Abstract Algebra I"
+course_title: "Rutgers MATH 551, Fall 2019."
+description: ""
+instructor: "Daniel Krashen"
+email: "daniel.krashen+alg1@gmail.com"
+office: "Hill Center 220 (Busch Campus)"
+office_hours: "TBD"
+lecture_schedule: "Mon/Thurs 1:40-3:00pm, Hill Center Room 423"
+
+baseurl: "/algebra1"
+url: "http://dkrashen.github.io"
+
+# url: "localhost:4000"
+# url: "http://math.dkrashen.org"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

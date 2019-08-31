@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="row header-row"> <!-- 0 -->
+
+<div class="col-md-9"> <!--1-->
+	<ul class="course-information">
+    	<li> <b>Instructor</b>: {{ site.instructor }} </li>
+    	<li> <b>Office</b>: {{ site.office }} </li>
+    	<li> <b>Lecture Schedule</b>: {{ site.lecture_schedule }} </li>
+      {% if site.office_hours %}
+      <li> <b>Office Hours</b>: {{ site.office_hours }}</li>
+      {% endif %}
+      {% if site.TA_office_hours %}
+      <li> <b>TA Office Hours</b>: {{ site.TA_office_hours }}</li>
+      {% endif %}
+	</ul>
+
+{% for h in site.data.homework %}
+<div class="row well well-sm">
+	<div class="col-md-9">
+	  <b>{{h.title}}</b>: due {{h.due}}
+	</div>
+	<div class="col-md-3">
+    {% if h.filename %}
+		<a href="homework/{{ h.filename }}"><button type="button"
+    class="btn btn-lnk btn-spaced">pdf</button></a>
+    {% endif %}
+	</div>
+</div>
+{% endfor %}
+</div><!--/1 -->
+
+</div><!--/0 -->
+
+
+
+
