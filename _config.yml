@@ -1,5 +1,5 @@
 testing: false
-
+analytics: true
 # Site settings
 title: "Abstract Algebra I (Rutgers 16:640:551,
 Fall 2019)"
