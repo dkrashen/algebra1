@@ -17,8 +17,30 @@ layout: default
       {% endif %}
 	</ul>
 
-{% for h in site.data.homework %}
 <div class="row well well-sm">
+  <div class="col-md-9">
+    <h3>Videos!</h3>
+
+    <b>Lecture 4: The class equation and the Sylow theorems</b>
+    <ul>
+      <li><a href="https://youtu.be/yEtoHdeDwRQ">The correspondence theorem in group theory</a></li>
+      <li><a href="https://youtu.be/_GIY14CeMU8">Products of subgroups</a></li>
+      <li><a href="https://youtu.be/FWCdnzjkn84">The class equation</a></li>
+      <li><a href="https://youtu.be/WXUcu_SXG-4">The Sylow theorems</a></li>
+    </ul>
+    <b>Lecture 5: Using the Sylow theorems for groups of small order</b>
+    <ul>
+      <li><a href="https://youtu.be/2wZVdLahIQI">Groups of order at most 11</a></li>
+      <li><a href="https://youtu.be/lFb1jenu6fM">Groups of order 12</a></li>
+      <li><a href="https://youtu.be/K_VQBY4svsQ">Groups of order 30</a></li>
+      <li><a href="https://youtu.be/jIMBupnbxxA">Groups of order 60 and the simplicity of the alternating group on 5 elements</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="row well well-sm">
+    <h3>Homework</h3>
+{% for h in site.data.homework %}
 	<div class="col-md-9">
 	  <b>{{h.title}}</b>: due {{h.due}}
 	</div>
@@ -28,8 +50,9 @@ layout: default
     class="btn btn-lnk btn-spaced">pdf</button></a>
     {% endif %}
 	</div>
-</div>
 {% endfor %}
+</div>
+
 </div><!--/1 -->
 
 </div><!--/0 -->
