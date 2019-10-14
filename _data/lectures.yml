@@ -25,3 +25,6 @@
 - title: "Lecture 11"
   filename: "lecture11.pdf"
   description: "Rings: definitions and examples"
+- title: "Lecture 12"
+  filename: "lecture12.pdf"
+  description: "Basic properties of rings and ideals; fractions and localization, part 1"
