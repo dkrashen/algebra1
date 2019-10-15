@@ -46,13 +46,9 @@ layout: default
     <h3>Homework</h3>
 {% for h in site.data.homework %}
 	<div class="col-md-9">
+		<a href="homework/{{ h.filename }}">
 	  <b>{{h.title}}</b>: due {{h.due}}
-	</div>
-	<div class="col-md-3">
-    {% if h.filename %}
-		<a href="homework/{{ h.filename }}"><button type="button"
-    class="btn btn-lnk btn-spaced">pdf</button></a>
-    {% endif %}
+    </a>
 	</div>
 {% endfor %}
 </div>
