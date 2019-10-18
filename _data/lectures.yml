@@ -28,3 +28,6 @@
 - title: "Lecture 12"
   filename: "lecture12.pdf"
   description: "Basic properties of rings and ideals; fractions and localization, part 1"
+- title: "Lecture 13"
+  filename: "lecture13.pdf"
+  description: "Fractions and localization, part 1; Chinese remainder theorem; Principal ideal domains"
