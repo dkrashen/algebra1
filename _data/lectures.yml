@@ -31,3 +31,6 @@
 - title: "Lecture 13"
   filename: "lecture13.pdf"
   description: "Fractions and localization, part 1; Chinese remainder theorem; Principal ideal domains"
+- title: "Lecture 14"
+  filename: "lecture14.pdf"
+  description: "Unique factorization domains and Gauss' Lemma"
