@@ -22,6 +22,20 @@ layout: default
     <h4><b>Midterm exam in class, November 14</h4>
   </div>
 </div>
+
+<div class="row well well-sm">
+    <h3>Homework</h3>
+{% for h in site.data.homework reversed %}
+	<div class="col-md-9">
+		<a href="homework/{{ h.filename }}">
+	  <b>{{h.title}}</b>: due {{h.due}}
+    </a>
+	</div>
+{% endfor %}
+</div>
+
+
+
 <div class="row well well-sm">
   <div class="col-md-9">
     <h3>Videos!</h3>
@@ -45,17 +59,6 @@ layout: default
       <li><a href="https://youtu.be/McM7v1luwJU">Video</a></li>
     </ul>
   </div>
-</div>
-
-<div class="row well well-sm">
-    <h3>Homework</h3>
-{% for h in site.data.homework %}
-	<div class="col-md-9">
-		<a href="homework/{{ h.filename }}">
-	  <b>{{h.title}}</b>: due {{h.due}}
-    </a>
-	</div>
-{% endfor %}
 </div>
 
 </div><!--/1 -->
