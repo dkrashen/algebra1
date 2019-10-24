@@ -34,3 +34,6 @@
 - title: "Lecture 14"
   filename: "lecture14.pdf"
   description: "Unique factorization domains and Gauss' Lemma"
+- title: "Lecture 15"
+  filename: "lecture15.pdf"
+  description: "The Hilbert basis theorem; Introduction to modules"
