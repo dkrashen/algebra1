@@ -37,3 +37,6 @@
 - title: "Lecture 15"
   filename: "lecture15.pdf"
   description: "The Hilbert basis theorem; Introduction to modules"
+- title: "Lecture 16"
+  filename: "lecture16.pdf"
+  description: "More modules; tensor products, part 1"
