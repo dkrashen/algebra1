@@ -6,6 +6,7 @@ layout: default
 <h3>Syllabus for Math 551 (Graduate Abstract Algebra I) </h3>
 
 <h4>Topics (mostly from Dummit and Foote)</h4>
+
  - Overview of algebraic structures, including categories and universal algebra (Various sources, including Appendix II)
  - (Mostly Finite) Groups (Chapters 1-6, with emphasis on 4.3, 4.5, Chapter 5 and 6.1)
  - Rings (Chapters 7-9, with emphasis on 7.5, 7.6, 8.2, Chapter 9)
@@ -17,6 +18,7 @@ layout: default
 <h4>Administrative Details</h4>
 
 Grading:
+
  - Homework 30% (lowest 2 scores dropped)
  - Midterm 30% 
  - Final 40% 
@@ -26,5 +28,6 @@ sheet of paper attached to your exam/quiz/homework, stating which problem
 was graded incorrectly, and what the issue was 
 
 Class policies
+
  - No cell-phones, no laptops, no calculators, no electronic devices
 
