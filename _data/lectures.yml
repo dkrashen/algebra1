@@ -49,3 +49,6 @@
 - title: "Lecture 19"
   filename: "lecture19.pdf"
   description: "Vector space notions: duals, matrices, Kroneker products, tensor algebras"
+- title: "Lecture 20"
+  filename: "lecture20.pdf"
+  description: "Symmetric and Exterior algebras. Start of modules over a PID"
