@@ -52,3 +52,6 @@
 - title: "Lecture 20"
   filename: "lecture20.pdf"
   description: "Symmetric and Exterior algebras. Start of modules over a PID"
+- title: "Lecture 21"
+  filename: "lecture21.pdf"
+  description: "The structure of modules over a PID"
