@@ -55,3 +55,6 @@
 - title: "Lecture 21"
   filename: "lecture21.pdf"
   description: "The structure of modules over a PID"
+- title: "Lecture 22"
+  filename: "lecture22.pdf"
+  description: "Examples and application of the structure theory for modules over a PID"
