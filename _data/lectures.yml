@@ -64,3 +64,6 @@
 - title: "Lecture 24"
   filename: "lecture24.pdf"
   description: "Some categorical notions and the Yoneda Lemma. Introduction to representations of finite groups."
+- title: "Lecture 25"
+  filename: "lecture 25.pdf"
+  description: "Representations of finite groups, part 2."
